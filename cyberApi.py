@@ -7,7 +7,7 @@ import urllib
 from urllib.request import urlopen
 from subprocess import check_output
 
-link = "http://localhost/"
+link = "http://www.cyberstick.click/"
 
 if len(sys.argv) <= 1 or len(sys.argv) >= 5:
 	print("Usage: python3 cyberApi <upload/download> <cyberstick id>")
